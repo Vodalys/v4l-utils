@@ -15,6 +15,7 @@ AC_CONFIG_FILES([Makefile
 	lib/libv4l2/Makefile
 	lib/libv4l1/Makefile
 	lib/libdvbv5/Makefile
+	lib/libmediactl/Makefile
 	lib/libv4l2rds/Makefile
 	lib/libv4l-mplane/Makefile
 
@@ -47,8 +48,8 @@ AC_CONFIG_FILES([Makefile
 	lib/libv4l1/libv4l1.pc
 	lib/libv4l2/libv4l2.pc
 	lib/libdvbv5/libdvbv5.pc
+	lib/libmediactl/libmediactl.pc
 	lib/libv4l2rds/libv4l2rds.pc
-	utils/media-ctl/libmediactl.pc
 	utils/media-ctl/libv4l2subdev.pc
 
 	utils/qv4l2/qv4l2.1

@@ -37,9 +37,7 @@
 #include <linux/media.h>
 #include <linux/videodev2.h>
 
-#include "mediactl.h"
-#include "mediactl-priv.h"
-#include "tools.h"
+#include "../include/libmediactl.h"
 
 /* -----------------------------------------------------------------------------
  * Graph access
